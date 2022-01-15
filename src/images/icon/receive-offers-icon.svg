@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="82px" viewBox="0 0 62 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>5253102C-85F1-49D4-B30F-8A425316F591</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#D9F1FF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="LP-Inbound" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FE-test-D-LP-after-submission" transform="translate(-1329.000000, -615.000000)">
+            <g id="Group-27" transform="translate(1330.000000, 616.000000)">
+                <g id="Group-4" transform="translate(17.851240, 18.153803)">
+                    <path d="M41.6528926,0.00134472615 L41.6528926,59.166606 C41.6528926,60.2813839 40.7642975,61.1850399 39.6680992,61.1850399 L0.00132231405,61.1850399" id="Fill-1" fill="#D9F1FF"></path>
+                    <path d="M41.6528926,0.00134472615 L41.6528926,59.166606 C41.6528926,60.2813839 40.7642975,61.1850399 39.6680992,61.1850399 L0.00132231405,61.1850399" id="Stroke-3" stroke="#0099EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+                <g id="Group-8" transform="translate(9.917355, 10.085446)">
+                    <path d="M41.6528926,0.00134472615 L41.6528926,59.166606 C41.6528926,60.2813839 40.7642975,61.1850399 39.6680992,61.1850399 L0.00132231405,61.1850399" id="Fill-5" fill="#D9F1FF"></path>
+                    <path d="M41.6528926,0.00134472615 L41.6528926,59.166606 C41.6528926,60.2813839 40.7642975,61.1850399 39.6680992,61.1850399 L0.00132231405,61.1850399" id="Stroke-7" stroke="#0099EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+                <path d="M41.6515702,0 L1.98479339,0 C0.888595041,0 0,0.903655974 0,2.01843395 L0,45.6238689 L9.97950413,63.2021291 L41.6515702,63.2021291 C42.7477686,63.2021291 43.6363636,62.2984732 43.6363636,61.1836952 L43.6363636,2.01843395 C43.6363636,0.903655974 42.7477686,0 41.6515702,0" id="Fill-9" fill="url(#linearGradient-1)"></path>
+                <path d="M41.6515702,0 L1.98479339,0 C0.888595041,0 0,0.903655974 0,2.01843395 L0,45.6238689 L9.97950413,63.2021291 L41.6515702,63.2021291 C42.7477686,63.2021291 43.6363636,62.2984732 43.6363636,61.1836952 L43.6363636,2.01843395 C43.6363636,0.903655974 42.7477686,0 41.6515702,0 Z" id="Stroke-11" stroke="#0099EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M9.9793719,47.6425718 C9.9793719,46.5284662 9.09077686,45.6241378 7.99457851,45.6241378 L-0.000132231405,45.6241378 L9.9793719,63.2023981 L9.9793719,47.6425718 Z" id="Fill-13" fill="#0099EE"></path>
+                <polygon id="Fill-15" fill="#0099EE" points="21.8181818 6.05126768 24.5038017 11.5841434 30.5084298 12.4716627 26.1626446 16.7788206 27.1887603 22.8603446 21.8181818 19.9886819 16.4476033 22.8603446 17.473719 16.7788206 13.1279339 12.4716627 19.132562 11.5841434"></polygon>
+                <polygon id="Stroke-17" stroke="#0099EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="21.8181818 6.05126768 24.5038017 11.5841434 30.5084298 12.4716627 26.1626446 16.7788206 27.1887603 22.8603446 21.8181818 19.9886819 16.4476033 22.8603446 17.473719 16.7788206 13.1279339 12.4716627 19.132562 11.5841434"></polygon>
+                <line x1="6.61157025" y1="32.2734277" x2="37.0247934" y2="32.2734277" id="Stroke-19" stroke="#0099EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="6.61157025" y1="38.9970584" x2="37.0247934" y2="38.9970584" id="Stroke-21" stroke="#0099EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="16.5289256" y1="45.7206892" x2="37.0247934" y2="45.7206892" id="Stroke-23" stroke="#0099EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="16.5289256" y1="52.4443199" x2="37.0247934" y2="52.4443199" id="Stroke-25" stroke="#0099EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+            </g>
+        </g>
+    </g>
+</svg>
