@@ -1,3 +1,6 @@
+@import '../../styles/mixins';
+@import '../../styles/variables';
+
 .header {
   width: 100%;
   background: #fff;
@@ -9,4 +12,9 @@
   margin: 0 auto;
   position: relative;
   height: 70px;
+
+  @include breakpoint-down(medium) {
+    height: 50px;
+    border-bottom: 1px solid $border-light-color;
+  }
 }

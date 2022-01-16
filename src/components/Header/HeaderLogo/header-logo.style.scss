@@ -1,5 +1,27 @@
+@import '../../../styles/mixins';
+
 .header_logo {
   width: 162px;
   height: 36px;
   padding: 17px 26px;
+
+  @include breakpoint-down(medium) {
+    width: 103px;
+    height: 25px;
+    padding: 12px 20px;
+  }
+}
+
+.header_logo_long {
+  display: block;
+  @include breakpoint-down(medium) {
+    display: none;
+  }
+}
+
+.header_logo_short {
+  display: none;
+  @include breakpoint-down(medium) {
+    display: block;
+  }
 }
