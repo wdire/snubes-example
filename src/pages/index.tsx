@@ -9,7 +9,7 @@ import WhySnubes from '../components/WhySnubes';
 import Reviews from '../components/Reviews';
 import Footer from '../components/Footer';
 
-const Index = (props: PageProps) => {
+const Index = () => {
   return (
     <>
       <Head />
