@@ -1,15 +1,18 @@
 type GetCountryResponse = {
-  status: string;
   countryCode: string;
 };
 
 const getCountry = async (): Promise<GetCountryResponse> => {
-  return await fetch('http://ip-api.com/json/?fields=16386')
+  return await fetch('https://ipapi.co/country')
     .then(async (response) => {
-      return await response.json();
+      return {
+        countryCode: await response.text()
+      };
     })
     .catch(() => {
-      return false;
+      return {
+        countryCode: ''
+      };
     });
 };
 

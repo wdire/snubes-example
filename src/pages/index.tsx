@@ -1,5 +1,4 @@
 import React from 'react';
-import { PageProps } from 'gatsby';
 import '../styles/main.scss';
 import Header from '../components/Header';
 import Head from '../components/Head';
