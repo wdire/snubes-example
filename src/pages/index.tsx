@@ -7,6 +7,7 @@ import FormContainer from '../components/FormContainer';
 import Features from '../components/Features';
 import WhySnubes from '../components/WhySnubes';
 import Reviews from '../components/Reviews';
+import Footer from '../components/Footer';
 
 const Index = (props: PageProps) => {
   return (
@@ -17,6 +18,7 @@ const Index = (props: PageProps) => {
       <Features />
       <WhySnubes />
       <Reviews />
+      <Footer />
     </>
   );
 };

@@ -1,0 +1,59 @@
+@import '../../styles/mixins';
+@import '../../styles/variables';
+
+.footer {
+  width: 100%;
+  background-color: $footer-color;
+}
+
+.footer_wrapper {
+  max-width: 100%;
+  width: $high-max-width;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 66px 25px;
+  flex-wrap: wrap;
+
+  @include breakpoint-down(small) {
+    padding: 25px;
+    text-align: center;
+  }
+}
+
+.footer_section {
+  margin: 15px;
+
+  &.footer_service {
+    @include breakpoint-down(small) {
+      display: none;
+    }
+  }
+}
+
+.footer_section_list {
+  display: flex;
+  flex-direction: column;
+
+  a {
+    margin-bottom: 14px;
+    display: block;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.footer_service-icon {
+  width: 85px;
+  height: 85px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
