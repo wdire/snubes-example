@@ -1,0 +1,39 @@
+@import '../../styles/mixins';
+
+.form-container {
+  width: 100%;
+  background: url('../../images/call-center-image.png');
+  background-size: cover;
+  background-position: right;
+  position: relative;
+  z-index: 2;
+
+  @include breakpoint-down(medium) {
+    background: none;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: url('../../images/black-bottom-to-top.svg');
+    background-size: cover;
+    @include breakpoint-down(medium) {
+      background: none;
+      display: none;
+    }
+  }
+}
+
+.form-container_wrapper {
+  display: flex;
+  justify-content: center;
+
+  @include breakpoint-down(medium) {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,86 @@
+@import '../../../styles/mixins';
+
+.call-center-infos {
+  margin-top: auto;
+  margin-bottom: 45px;
+  margin-left: 20px;
+  max-width: 600px;
+  position: relative;
+  z-index: 2;
+
+  @include breakpoint-down(medium) {
+    margin: 0;
+    padding: 45px 15px;
+    padding-bottom: 10px;
+    max-width: 100%;
+    width: 100%;
+
+    background: url('../../../images/call-center-image.png');
+    background-size: cover;
+    background-position: right;
+
+    &:after {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      background: rgba(68, 85, 102, 0.75);
+    }
+  }
+}
+
+.call-center-infos_head {
+  font-size: 18px;
+  line-height: 1.5em;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 0 0 5px rgba(68, 85, 102, 0.5);
+
+  @include breakpoint-down(medium) {
+    text-align: center;
+  }
+}
+
+.call-center-infos_wrapper {
+  display: flex;
+
+  @include breakpoint-down(medium) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.call-center-infos_item {
+  margin-bottom: 30px;
+  margin-right: 35px;
+  color: #fff;
+
+  @include breakpoint-down(medium) {
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+
+  @include breakpoint-down(small) {
+    flex: 1 0 25%;
+  }
+}
+
+.call-center-infos_item_num {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-shadow: 0 0 5px rgba(68, 85, 102, 0.5);
+}
+
+.call-center-infos_item_name {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.3em;
+  font-weight: 300;
+  text-shadow: 0 0 5px rgba(68, 85, 102, 0.5);
+}
