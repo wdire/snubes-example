@@ -1,0 +1,76 @@
+@import '../../styles/mixins';
+@import '../../styles/variables';
+
+.features {
+  width: 100%;
+  position: relative;
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+.features_wrapper {
+  max-width: $high-max-width;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 20px;
+
+  @include breakpoint-down(small) {
+    flex-direction: column;
+  }
+}
+
+.features_item {
+  margin: 0 14px;
+  padding-top: 35px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+
+  @include breakpoint-down(small) {
+    flex-direction: row;
+    margin: 0 10px;
+    align-items: center;
+  }
+}
+
+.features_item_icon {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 80px;
+  height: 80px;
+
+  @include breakpoint-down(small) {
+    flex-shrink: 0;
+    margin-right: 15px;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.features_item_head {
+  margin-bottom: 6px;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  font-weight: bold;
+  color: $text-color;
+
+  @include breakpoint-down(small) {
+    text-align: left;
+  }
+}
+
+.features_item_sub {
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: $text-color;
+
+  @include breakpoint-down(small) {
+    text-align: left;
+  }
+}

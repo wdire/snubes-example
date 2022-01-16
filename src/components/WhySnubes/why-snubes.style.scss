@@ -1,0 +1,63 @@
+@import '../../styles/mixins';
+@import '../../styles/variables';
+
+.why-snubes {
+  width: 100%;
+  background: url('../../images/mac-background.png');
+  background-size: cover;
+  background-position: center;
+  background-color: #fff;
+  margin-bottom: 10px;
+
+  @include breakpoint-down(medium) {
+    background: url('../../images/mac-short-background.png');
+    background-size: cover;
+    background-position: right;
+  }
+
+  @include breakpoint-down(small) {
+    background: #fff;
+  }
+}
+
+.why-snubes_wrapper {
+  max-width: 100%;
+  width: $medium-max-width;
+  margin: 0 auto;
+  padding: 65px 0;
+
+  @include breakpoint-down(medium) {
+    margin: 0;
+    padding-left: 35px;
+    padding-right: 35px;
+    max-width: 70%;
+  }
+
+  @include breakpoint-down(small) {
+    max-width: 100%;
+  }
+}
+
+.why-snubes_item {
+  margin-bottom: 40px;
+}
+
+.why-snubes_head {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: $text-color;
+}
+
+.why-snubes_subhead {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  color: $text-color;
+}
+
+.why-snubes_desc {
+  font-size: 18px;
+  line-height: 28px;
+  color: $text-color;
+}
