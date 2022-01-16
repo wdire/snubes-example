@@ -6,6 +6,7 @@ import Head from '../components/Head';
 import FormContainer from '../components/FormContainer';
 import Features from '../components/Features';
 import WhySnubes from '../components/WhySnubes';
+import Reviews from '../components/Reviews';
 
 const Index = (props: PageProps) => {
   return (
@@ -15,6 +16,7 @@ const Index = (props: PageProps) => {
       <FormContainer />
       <Features />
       <WhySnubes />
+      <Reviews />
     </>
   );
 };
